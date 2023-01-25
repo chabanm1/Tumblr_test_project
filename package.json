@@ -1,0 +1,24 @@
+{
+  "name": "cypress-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilerOptions": {
+      "types": [
+        "cypress",
+        "cypress-file-upload"
+      ]
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
+    "@cypress/xpath": "^2.0.3",
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^12.3.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
