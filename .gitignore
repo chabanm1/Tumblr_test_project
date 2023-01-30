@@ -15,7 +15,7 @@ pids
 
 # Dependency directories
 node_modules/
-cypress\e2e\1-getting-started
+cypress/e2e/1-getting-started
 
 # Optional npm cache directory
 .npm
