@@ -8,8 +8,9 @@ export class BasePage {
   //Buttons
   loginButton = '[class^="EvhBA"]';
   newPostButton = '[class^="fvSXi xxqHJ"]';
-  accountButton = '[class="TRX6J B1L2M"][aria-label="Account"]';
-  exploreButton = '[class="TRX6J B1L2M"][aria-label="Activity"]';
+  accountButton = '//button[@aria-label="Account"]';
+  exploreButton = '//button[@aria-label="Activity"]';
+
   //Actions
   loginUser() {
     cy.visit(this.url);
@@ -24,7 +25,7 @@ export class BasePage {
     cy.get("body").click(0, 0);
   }
   clickOnAccountButton() {
-    cy.get(this.accountButton).click();
+    cy.xpath(this.accountButton).click();
   }
   clickOnExploreButton() {
     cy.xpath(this.exploreButton).click();

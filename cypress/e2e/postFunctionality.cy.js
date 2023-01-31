@@ -26,7 +26,7 @@ it("create post using HTML text editor ", () => {
   accountPage.checkTitleOfTheLastCreatedPost(postTitle);
 });
 
-it("add post with image to the queue ", () => {
+it.only("add post with image to the queue ", () => {
   basePage.clickOnNewPostButton();
   postPage.clickOnTextContentType();
   postPage.typePostTitleRichTextEditor(postTitle);

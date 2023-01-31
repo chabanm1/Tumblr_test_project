@@ -1,6 +1,10 @@
 # Dependency directories
 node_modules/
 cypress/e2e/1-getting-started
+cypress/downloads
+cypress/fixtures
+cypress/screenshots
+cypress/videos
 
 # dotenv environment variables file
 .env
